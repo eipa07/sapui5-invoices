@@ -1,0 +1,7 @@
+<mvc:View controllerName="com.ui5.invoices.controller.App"
+xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+
+    <Button press=".onShowHello" text="{i18n>btnText}"></Button>
+    <Input value="{/recipient/name}" description="Hello {/recipient/name}" width="60%" valueLiveUpdate="true"></Input>
+
+</mvc:View>
